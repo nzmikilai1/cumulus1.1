@@ -21,11 +21,12 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </head>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
         <ThemeProvider>
           {children}
         </ThemeProvider>
-      </body>
     </html>
   );
+}
+  )
 }
